@@ -2,8 +2,9 @@
 	"name": "ad-teaching",
 	"private": true,
 	"version": "0.0.1",
-	"type": "module",
-	"scripts": {
+  "type": "module",
+  "engines": { "node": "20.x" },
+  "scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
